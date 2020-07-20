@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Canvas Paint-Web</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body oncontextmenu=" return false">
+	
+	<div id="toolbar">
+		<div id="rad">
+			Boyut:  <span id="radval">10</span>
+			<div id="decrad" class="radcontrol">-</div>
+			<div  id="incrad" class="radcontrol">+</div>
+		</div>
+		<div id="colors">
+		</div>
+		<div id="clearButton">
+			Temizle	
+		</div>
+		<div id="save">
+			Kaydet
+		</div>
+		<div id="shapes">
+			<span id="brush">&#9998;</span>
+		</div>
+	</div>
+
+	<canvas id="canvas"  style="display: block;">
+		Tarayıcınız Canvas desteklemiyor... Chrome ya da başka bir modern tarayıcı deneyiniz.
+	</canvas>
+
+
+	<script src="main.js"></script>
+	<script src="radius.js"></script>
+	<script src="color.js"></script>
+	<script src="save.js"></script>
+	<script src="shapes.js"></script>
+</body>
+</html>
